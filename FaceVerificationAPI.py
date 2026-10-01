@@ -26,6 +26,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:8443",
         "http://127.0.0.1:8443",
+        "https://healthcare-ai-demo-phi.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
